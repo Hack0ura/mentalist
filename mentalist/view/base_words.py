@@ -132,7 +132,7 @@ class BaseWordsNode(BaseNode):
 
     def set_word_count(self, word_count):
         if isinstance(word_count, int):
-            word_count = locale.format("%d", word_count, grouping=True) # add commas
+            word_count = locale.format_string("%d", word_count, grouping=True) # add commas
         self.word_count_label.configure(text=word_count)
 
     def open_file_dlg(self, callback, *args):
