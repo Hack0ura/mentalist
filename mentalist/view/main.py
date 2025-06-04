@@ -387,7 +387,7 @@ def word_count_to_string(words):
     '''Get a string representation of the word count
     '''
     if isinstance(words, int):
-        words = locale.format("%d", words, grouping=True) # add commas
+        words = locale.format_string("%d", words, grouping=True) # add commas
     return words
 
 
