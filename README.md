@@ -3,6 +3,13 @@
 ![MIT License](http://img.shields.io/badge/license-MIT%20License-blue.svg)
 [![sc0tfree Twitter](http://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Follow)](https://twitter.com/sc0tfree)
 
+# If you have the error "locale.Error: unsupported locale setting"
+
+```
+$ sudo locale-gen en_US.UTF-8
+$ sudo update-locale
+```
+
 # Mentalist
 <p align="center">
   <img src="https://sc0tfree.squarespace.com/s/Mentalist-logo-250px.png" alt="Logo"/>
